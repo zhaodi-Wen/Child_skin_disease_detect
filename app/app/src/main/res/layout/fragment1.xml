@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="疾病自测"
+        android:textColor="#8B864E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/edit" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="体质测试"
+        android:textColor="#8B864E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/doctor" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="81dp"
+        android:gravity="center"
+        android:text="育儿科普"
+        android:textColor="#8B864E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/ui" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="个人化"
+        android:textColor="#8B864E"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/profile" />
+
+
+    <TextView
+        android:id="@+id/text_view2_1"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="小儿常见疾病"
+        android:textColor="#D2B48C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_view2_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="0dp"
+        android:background="#CDC9C9" />
+    <Button
+        android:id="@+id/button2_1"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="360dp"
+        android:text="夜啼"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_2"
+        android:layout_width="110dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/shape_2"
+        android:text="新生儿黄疸"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2_3"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="32dp"
+        android:text="惊风"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_4"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="430dp"
+        android:text="遗尿"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_5"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:text="鹅口疮"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_6"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="32dp"
+        android:text="呕吐"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_7"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="500dp"
+        android:text="食积"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_8"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="腹泻"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <Button
+        android:id="@+id/button2_9"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="32dp"
+        android:text="厌食"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

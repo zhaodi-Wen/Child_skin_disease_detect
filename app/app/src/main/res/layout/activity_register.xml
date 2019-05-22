@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_title_bar"></include>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="婴儿资料："
+        android:textColor="#8B864E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="监护人资料："
+        android:textColor="#8B864E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_psw_again" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="帐号资料："
+        android:textColor="#8B864E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name3" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入婴儿名字"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/et_user_name2"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入监护人名字(帐号名称)"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/et_user_name3"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入联络方式"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_psw2" />
+
+    <EditText
+        android:id="@+id/et_user_name4"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入密码"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入婴儿年龄"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/et_psw_again"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name" />
+
+    <EditText
+        android:id="@+id/et_psw2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入监护人年龄"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/et_psw_again2"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name2" />
+
+    <EditText
+        android:id="@+id/et_psw_again"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入婴儿性別"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name" />
+
+    <EditText
+        android:id="@+id/et_psw_again2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入监护人亲属关系"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#D2B48C"
+        android:textColorHint="#D2B48C"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name2" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/shape_2"
+        android:text="注 册"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name4" />
+</android.support.constraint.ConstraintLayout>

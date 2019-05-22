@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/button4_1"
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bady_1"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        android:text="厌食"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+    <ImageView
+        android:id="@+id/button4_2"
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bady_2"/>
+    <Button
+        android:id="@+id/button5_1"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        android:text="濕疹"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+    <ImageView
+        android:id="@+id/button4_3"
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bady_3"/>
+    <Button
+        android:id="@+id/button5_2"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        android:text="皮膚护理"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape_2" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.AcuPediatrician">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/wechat"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.user.AcuPediatrician.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".Tizhiceshi" />
+        <activity android:name=".Yuerbaojian" />
+        <activity android:name=".Yangxu">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_START" />
+
+                <category android:name="android.intent.category.DEEFAULT" />
+                <category android:name="com.example.user.AcuPediatrician.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Qixu" />
+        <activity android:name=".Qiyu" />
+        <activity android:name=".Yinxu" />
+        <activity android:name=".Pinghe" />
+        <activity android:name=".Shire" />
+        <activity android:name=".Tebing" />
+        <activity android:name=".Bingshi" />
+        <activity android:name=".Yuxie" />
+        <activity android:name=".Yanshi" />
+        <activity android:name=".Shizhen" />
+        <activity android:name=".Pifuhuli" />
+        <activity android:name=".Doctor1" />
+        <activity android:name=".Doctor2" />
+        <activity android:name=".Yeti" />
+        <activity android:name=".Xinshengerhuangdan" />
+        <activity android:name=".Jingfeng" />
+        <activity android:name=".Yiniao" />
+        <activity android:name=".Ekouchuang" />
+        <activity android:name=".Outu" />
+        <activity android:name=".Shiji" />
+        <activity android:name=".Fuxie" />
+        <activity android:name=".Yanshi1" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Yaofubu" />
+        <activity android:name=".Beibu" />
+        <activity android:name=".Toulianbu" />
+        <activity android:name=".Sizi" />
+        <activity android:name=".Takephoto"></activity>
+    </application>
+
+</manifest>

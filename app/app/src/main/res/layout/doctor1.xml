@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.AcuPediatrician.Doctor1">
+
+    <TextView
+        android:id="@+id/text_view4_1"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:text="出诊地点："
+        android:textColor="#FF1B9EA8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view4_2"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="出诊时间： "
+        android:textColor="#FF1B9EA8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_1" />
+
+    <TextView
+        android:id="@+id/text_view4_4"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="擅长领域： "
+        android:textColor="#FF1B9EA8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_2" />
+
+    <TextView
+        android:id="@+id/text_view4_6"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="136dp"
+        android:text="执业经历： "
+        android:textColor="#FF1B9EA8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_4" />
+
+    <TextView
+        android:id="@+id/text_view4_"
+        android:layout_width="252dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:text="广州中医药大学第一附属医院 推拿科 "
+        android:textColor="#FF1B9EA8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text_view4_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view4_3"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="周二全天，周三、周四上午，周五下午 "
+        android:textColor="#FF1B9EA8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text_view4_2"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_" />
+
+    <TextView
+        android:id="@+id/text_view4_5"
+        android:layout_width="248dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="21dp"
+        android:text="擅长治疗颈部疼痛、肩周炎、头晕头痛、失眠、腰椎间盘突出症、颈椎病、腰痛、骨关节错位、慢性疲劳综合征、耳鸣、更年期综合症、黄褐斑、月经不调、小儿抽动症、小儿脑瘫自闭症，消化不良等。 "
+        android:textColor="#FF1B9EA8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text_view4_4"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_3" />
+
+    <TextView
+        android:id="@+id/text_view4_7"
+        android:layout_width="252dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="12dp"
+        android:text="贾医师，副主任中医师，医学博士，硕士研究生导师。
+\n
+\n全国第三批名老中医骨伤学陈基长教授学术继承人，全国第五批名老中医针灸学赖新生教授学术继承人，国家非物质文化遗产贾立惠点穴疗法学术继承人，广东省中医师承指导老师，第一届岭南中医点穴名匠，广州中医药大学第一附属医院第一届杏林英才。广东省针灸学会理事，广东省针灸学会腧穴外治委员会副主任委员，世界中医药学会联合会中医药文献与流派研究专业委员会理事。
+\n
+\n主持3项科研课题，参与8项国家自然基金及省部级科研课题，发表论文20余篇。临床医疗擅长以针灸、刺络放血、火针、推拿、点穴、整脊、捏脊等中医临床技术治疗各类痛证包括颈肩腰腿痛、头痛、痛经等，更年期综合征、失眠、神经衰弱、小儿抽动障碍等及脊柱调理等。
+"
+        android:textColor="#FF1B9EA8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/text_view4_6"
+        app:layout_constraintTop_toBottomOf="@+id/text_view4_5" />
+</android.support.constraint.ConstraintLayout>

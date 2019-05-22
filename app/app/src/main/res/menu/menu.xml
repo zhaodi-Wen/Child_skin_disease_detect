@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id1"
+        android:icon="@drawable/house"
+        android:title="首页"
+        />
+    <item
+        android:id="@+id/id2"
+        android:icon="@drawable/like"
+        android:title="保健治疗" />
+    <item
+        android:id="@+id/id3"
+        android:icon="@drawable/photo_camera"
+        android:title="相机" />
+    <item
+        android:id="@+id/id4"
+        android:icon="@drawable/speech"
+        android:title="在线咨询" />
+    <item
+        android:id="@+id/id5"
+        android:icon="@drawable/meeting"
+        android:title="社区论坛" />
+
+        />
+</menu>
