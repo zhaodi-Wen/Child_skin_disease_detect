@@ -1,5 +1,5 @@
 # Child_skin_disease_detect
-#儿童皮肤病检测
+# 儿童皮肤病检测
 
 - <B>数据获取
   ####使用spider.py文件[爬取网站](https://medicine.uiowa.edu/dermatology/education/clinical-skin-disease-images)上的常见疾病图片,我们爬取了大概165种疾病.
