@@ -143,7 +143,7 @@ python create_tfrecord.py \
     --tfrecord_filename=illness_new\   ##生成的tfrecord的文件名
     --validation_size=0.2
 ```
-生成的文件如图所示<img src=img/1.png>
+生成的文件如图所示<br><img src=img/1.png>
 #### ④训练
 我基于mobilenet_v2进行了迁移,同时模型是基于预训练模型的基础上进行的
 预训练模型是官方给的训练模型，在./src/src/slim/mobinet_v1_1.0.224/上
@@ -161,7 +161,7 @@ python train_image_classifier.py \
     --checkpoint_exclude_scopes=MobilenetV1/Logits
 ```
 
-在train_dir中可以看到生成的![log文件](img/2.png)
+在train_dir中可以看到生成的<br>![log文件](img/2.png)
 
 测试模型
 ```python
@@ -208,5 +208,5 @@ $ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pi
 ```python
 ~/tensorflow-master/bazel-bin/tensorflow/lite/toco/toco --input_file=mobilenet_v1_1.0_224_frozen.pb --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --output_file=model.lite --inference_type=FLOAT --input_type=FLOAT --input_arrays=input --output_arrays=MobilenetV1/Predictions/Reshape_1 --input_shapes=1,224,224,3
 ```
-- 最后得到如图所示的![模型](img/3.png)
+- 最后得到如图所示的<br>![模型](img/3.png)
 
