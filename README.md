@@ -219,3 +219,7 @@ $ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pi
 ![Demo2](img/5.jpg)
 
 
+#### app演示
+![Demo](img/6.gif)
+
+
