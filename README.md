@@ -122,7 +122,7 @@ def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
       labels_to_names=labels_to_names)
 
  ```
- ####②
+ #### ②
  在./src/src/slim/datasets/datafactory.py中添加
  ```python
     datasets_map = {
@@ -135,7 +135,7 @@ def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
 }
 对应的数据集的字典
 ```
-####③
+#### ③
 在./src/src/slim/文件夹中,运行
 ```python
 python create_tfrecord.py \ 
@@ -144,7 +144,7 @@ python create_tfrecord.py \
     --validation_size=0.2
 ```
 生成的文件如图所示<img src=img/1.png>
-####④训练
+#### ④训练
 我基于mobilenet_v2进行了迁移,同时模型是基于预训练模型的基础上进行的
 预训练模型是官方给的训练模型，在./src/src/slim/mobinet_v1_1.0.224/上
 cd进入src/src/slim/，运行
@@ -197,7 +197,7 @@ python freeze_graph.py \
 第二个地方，是output_node_names参数，此处指定的是神经网络图中的输出节点的名字，是在训练阶段的Python脚本中定义的。
 
 
-####转化为tflite格式(有点麻烦)
+#### 转化为tflite格式(有点麻烦)
 - 安装bazel，可以参考[官方教程](https://docs.bazel.build/versions/master/install-ubuntu.html?userToken=6d6Cr4SpciN2DfyzLno3Uw%3D%3D&userName=4HtSQQrLr9f%2BvtIn5bm%2B6g%3D%3D&time=1552793164685)
 - git clone [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)到本地文件夹中
 - 我的服务器支持GPU,所以运行
